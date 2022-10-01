@@ -36,40 +36,12 @@
 
     
 
-    .p2 {
-        float: right;
-        color: white;
-        width: 100px;
-        padding: 5px;
-        margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: red;
-
-    }
-
 
     .p1 {
         float: right;
         width: 100px;
         padding: 5px;
         margin: -3px -3px 0px;
-        border: 3.5px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: pink;
-
-    }
-
-    .p3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-         margin: -3px -3px 0px;
         border: 3.5px solid black;
         text-align: center;
         font-size: 125%;
@@ -88,10 +60,12 @@
         overflow: auto;
     }
 
-    .row {
-        width: 90%;
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
     }
-
     @media (min-width: 992px) {
         .column-lg-4 {
             float: left;
@@ -117,9 +91,3 @@
     }
 
     
-    @media (max-width: 767px) {
-        .colmn-sm-12 {
-            float: left;
-            width: 100%;
-        }
-    }
