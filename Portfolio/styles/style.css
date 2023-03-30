@@ -1,0 +1,262 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #61122f;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.headingmain{
+  color: #f6b319;
+  text-shadow: #61122f;
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+
+.main-container {
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_row h1 {
+    font-size: 5rem;
+}
+
+.main-row img {
+    width: auto;
+    height: 100%;
+}
+
+#about {
+    background: #61122f;
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px solid #f5ba09;
+}
+
+#contact {
+    background: #313552;
+}
+
+.contact_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5;
+}
+
+.pt-5,
+.py-5 {
+    
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+h3 {
+    padding-top: 2rem !important;
+}
+
+h5 {
+    margin: 1rem;
+}
+
+.pb-3,
+.py-3 {
+    padding-bottom: 2rem !important;
+}
+
+.contact_link:hover {
+
+    box-shadow: 15px 15px 8px 3px;
+}
+
+.p-3 {
+    color: #313552;
+    background-color: #1f2235;
+}
+
+
+
+.projecthead{
+  text-align: center;
+  color: #f5ba09 ;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.social-links{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    
+}
+.contact_link, .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact_link{
+    border: 3px solid #f5ba09;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+
+.contact_link:hover{
+    background-color: #f5ba09;
+    box-shadow: 0px 0px 5px #f5ba09,
+                0px 0px 15px #f5ba09,
+                0 0 25px #f5ba09,
+                0 0 35px #f5ba09,
+                0 0 45px #f5ba09,
+                0 0 55px #f5ba09;
+    border: 3px solid #fff;
+
+}
+.icons{
+    color: #fff !important;
+}
+.soc-name, .soc-name:hover{
+    outline: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container-title{
+    font-size: 40px;
+}
+
+
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #fff;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #testimonials {
+    font-style: italic;
+  }
+  #testimonials p:nth-child(2) {
+    margin-top: 25px;
+  }
+  
+
+  #menu-tile, #specials-tile , #specials-tile1, #map-tile {
+    margin: 10px 0px 0px 45px;
+    height: 360px;
+    width: 360px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+  #menu-tile:hover, #specials-tile:hover,#specials-tile1:hover ,#map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  #menu-tile {
+    background: url('../images/tourguide.png') no-repeat;
+    background-position: center;
+    background-size: 400px 400px;
+  }
+  #specials-tile {
+    background: url('../images/sale.png') no-repeat;
+    background-position: center;
+    background-size: 400px 400px;
+  }
+
+
+  #specials-tile1 {
+    background: url('../images/tourguide.png') no-repeat;
+    background-position: center;
+    background-size: 400px 400px;
+  }
+
+
+  #menu-tile span, #specials-tile span,#specials-tile1, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  
+  
+  
+  .category-tile { 
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+  }
+  .category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+  }
+  .category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+  }
+  
+  #menu-categories-title + div {
+    margin-bottom: 50px;
+  }
+  

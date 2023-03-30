@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Style/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Style/css/custom.css">
+    <script type="module" src="values.js"> </script>
+    <script type="text/javascript" src="script.js"> </script>
+</head>
+
+<body onload="whenLoaded()" src="script.js">
+
+    <header class="mainHeader" role="banner">
+    <div class="header_class">
+    <h1 id="title_text"> Unit Converter </h1>
+</div>
+    </header>
+
+    
+
+    <div class="row">
+
+        <div class="btn-group-vertical col-sm-3" id="leftSideButtons">
+            <button type="button" class="btn btn-primary" id="area_button">Area</button>
+            <button type="button" class="btn btn-primary" id="bits_bytes_button">Bits/Bytes</button>
+            <button type="button" class="btn btn-primary" id="energy_button"> Energy</button>
+            <button type="button" class="btn btn-primary" id="length_button"> Length</button>
+            <button type="button" class="btn btn-primary" id="time_button"> Time</button>
+            <button type="button" class="btn btn-primary" id="volume_button"> Volume</button>
+            <button type="button" class="btn btn-primary" id="weight_button"> Weight</button>
+
+        </div>
+
+
+
+
+
+        <div id="innerDiv" class="col-sm-6" style="display:table-cell; vertical-align:middle; text-align:center">
+            <input type="number" id="first_input_field">
+            <select id="first_select_element">
+            </select>
+            <br>
+            <input type="number" id="second_input_field">
+            <select id="second_select_element">
+            </select> <br>
+            <button id="clear_button" type="button" class="btn btn-success"> Clear</button>
+            <button id="replace_button" type="button" class="btn btn-success"> Replace</button>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+<script type="text/javascript" src="script.js"> </script>
+
+</html>
+
+
+
+
+
+
+
